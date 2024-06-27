@@ -27,7 +27,7 @@ In the context of medical imaging and diagnostics, incorporating additional pati
 
 These features collectively enrich the model’s ability to make informed predictions about Diabetic Retinopathy severity, enabling personalized patient care and intervention strategies.
 
-## Folder Structure
+## Folder Structure for training model
 
 ```
 .
@@ -53,7 +53,7 @@ These features collectively enrich the model’s ability to make informed predic
 │   ├── additional_features_scaler.pkl   # Scaler object for additional features
 │   └── ...
 ├── data/                           # Sample dataset and CSV files
-│   └── sampled_dataset.csv         # Sample CSV dataset with patient data
+│   └── train_dataset.csv         # Sample CSV dataset with patient data
 ├── metrics/                        # Performance metrics and evaluation results
 │   ├── vgg16_metrics.txt           # Metrics for VGG16 model
 │   ├── resnet_metrics.txt          # Metrics for ResNet model
@@ -77,14 +77,7 @@ These features collectively enrich the model’s ability to make informed predic
 ```
 
 ## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
-   cd <repository_name>
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
